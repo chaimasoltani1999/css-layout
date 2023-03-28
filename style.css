@@ -1,0 +1,164 @@
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+.docplanner-header{
+    display: flex;
+    justify-content: space-between;
+    color: #747474;
+}
+.about{
+    color: #00b39b;
+}
+.career{
+    color: #747474;
+}
+.Departments{
+
+    color: #747474;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+    color:  #00b39b;
+
+}
+.section2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
+.introduction{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px ;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 25px;
+    -webkit-font-smoothing: antialiased
+}
+.patients{
+    background-color: #00b39b;
+}
+.doctors{
+    background-color: #3d83df;
+}
+.clinics{
+    background-color: #1b2734;
+}
+.box{
+    height: 300px;
+    padding: 20px;
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.select{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+}
+.option{
+    color: gray;
+
+}
+.section1{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.section2{
+    width: 70%;
+    margin: auto;
+}
+.titlesec22{
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: 350px
+em
+ 0 0.35em;
+    padding-right: 1em;
+    color:#00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+.imgsec22{
+    color: #747474 ;
+    margin: 30px;
+}
+.section3{
+    min-height: 600px;
+    background-color: #e5faf8;
+}
+.bagsec3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    width: 70%;
+    margin: 300px;
+}
+.titlesec3{
+    color: #00b39b ;
+    font-weight: 100;
+    width: 100%;
+
+}
+
+
+.psection3{
+    color: #747474;
+    width: 70%;
+}
+@media (max-width:500px;){
+    .introduction{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .section1{
+        width: 100%;
+    }
+    .section h1{
+        text-align: center;
+    }
+    .section2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+
+    }
+    .section2{
+        width: 100%;
+    }
+       
+
+}
+.section4{
+    margin: 60px;
+}
+.titlesec4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+    color:  #00b39b;
+}
+.paragsec4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+    color:  gray;
+   
+}
